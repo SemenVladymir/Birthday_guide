@@ -72,11 +72,11 @@
             this.Size = new System.Drawing.Size(766, 53);
             this.ResumeLayout(false);
             this.PerformLayout();
+            this.MouseHover += UserControl1_MouseHover1;
+            this.MouseLeave += UserControl1_MouseLeave1;
+            this.Click += UserControl1_Click1;
 
         }
-
-       
-
 
 
 

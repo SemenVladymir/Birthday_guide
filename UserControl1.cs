@@ -30,7 +30,7 @@ namespace Birthday_guide
             lMonth.Font = new Font("Arial", 11, FontStyle.Bold);
         }
 
-        private void UserControl1_MouseLeave(object sender, System.EventArgs e)
+        private void UserControl1_MouseLeave1(object sender, System.EventArgs e)
         {
             if (lMonth.Text == "")
             {
@@ -39,7 +39,7 @@ namespace Birthday_guide
             }
         }
 
-        private void UserControl1_MouseHover(object sender, System.EventArgs e)
+        private void UserControl1_MouseHover1(object sender, System.EventArgs e)
         {
             if (lMonth.Text == "")
             {
@@ -48,7 +48,7 @@ namespace Birthday_guide
             }
         }
 
-        private void UserControl1_Click(object sender, System.EventArgs e)
+        private void UserControl1_Click1(object sender, System.EventArgs e)
         {
             if (lMonth.Text == "")
             {

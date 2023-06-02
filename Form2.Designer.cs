@@ -99,7 +99,6 @@
             this.Controls.Add(this.Date);
             this.Controls.Add(this.Name);
             this.Controls.Add(this.label1);
-            this.Name = "Form2";
             this.Text = "Add or correct item";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
